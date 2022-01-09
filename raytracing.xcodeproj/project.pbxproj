@@ -25,6 +25,9 @@
 /* Begin PBXFileReference section */
 		2494D151278AE450003D6EEC /* raytracing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = raytracing; sourceTree = BUILT_PRODUCTS_DIR; };
 		2494D154278AE450003D6EEC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2494D15B278AE47F003D6EEC /* color.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = color.hpp; sourceTree = "<group>"; };
+		2494D15C278AE47F003D6EEC /* ray.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = ray.hpp; sourceTree = "<group>"; };
+		2494D15D278AE47F003D6EEC /* vec3.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = vec3.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				2494D154278AE450003D6EEC /* main.cpp */,
+				2494D15B278AE47F003D6EEC /* color.hpp */,
+				2494D15C278AE47F003D6EEC /* ray.hpp */,
+				2494D15D278AE47F003D6EEC /* vec3.hpp */,
 			);
 			path = raytracing;
 			sourceTree = "<group>";
