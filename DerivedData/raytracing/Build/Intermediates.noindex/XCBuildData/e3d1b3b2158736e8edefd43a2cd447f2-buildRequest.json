@@ -1,0 +1,58 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "d82e791043b9b0334dfc1a4d0b3212a4b9eb3554aa46a1942a4ab26e8ec3bfc7"
+    }
+  ],
+  "containerPath" : "/Users/jjszaniszlo/Dev/raytracing/raytracing.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx12.1",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/jjszaniszlo/Dev/raytracing/DerivedData/raytracing/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/jjszaniszlo/Dev/raytracing/DerivedData/raytracing/Build/Products",
+      "derivedDataPath" : "/Users/jjszaniszlo/Dev/raytracing/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/jjszaniszlo/Dev/raytracing/DerivedData/raytracing/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/jjszaniszlo/Dev/raytracing/DerivedData/raytracing/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/jjszaniszlo/Dev/raytracing/DerivedData/raytracing/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

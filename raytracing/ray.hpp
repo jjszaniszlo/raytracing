@@ -17,8 +17,8 @@ public:
         : m_orig(origin), m_dir(direction)
     {}
     
-    point3 origin() {return m_orig;}
-    point3 direction() {return m_dir;}
+    point3 origin() const {return m_orig;}
+    point3 direction() const {return m_dir;}
     
     point3 at(double t) const {
         return m_orig + t * m_dir;

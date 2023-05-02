@@ -23,6 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		24226546278AF70400E7D560 /* hittable.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; path = hittable.hpp; sourceTree = "<group>"; };
+		24226547278AF7AB00E7D560 /* sphere.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = sphere.hpp; sourceTree = "<group>"; };
+		24226548278AFB5C00E7D560 /* hittable_list.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = hittable_list.hpp; sourceTree = "<group>"; };
+		24226549278BF57000E7D560 /* rtweekend.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = rtweekend.hpp; sourceTree = "<group>"; };
+		2422654A278C0FBB00E7D560 /* camera.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = camera.hpp; sourceTree = "<group>"; };
+		2422654B278C167D00E7D560 /* material.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = material.hpp; sourceTree = "<group>"; };
 		2494D151278AE450003D6EEC /* raytracing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = raytracing; sourceTree = BUILT_PRODUCTS_DIR; };
 		2494D154278AE450003D6EEC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		2494D15B278AE47F003D6EEC /* color.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = color.hpp; sourceTree = "<group>"; };
@@ -64,6 +70,12 @@
 				2494D15B278AE47F003D6EEC /* color.hpp */,
 				2494D15C278AE47F003D6EEC /* ray.hpp */,
 				2494D15D278AE47F003D6EEC /* vec3.hpp */,
+				24226546278AF70400E7D560 /* hittable.hpp */,
+				24226547278AF7AB00E7D560 /* sphere.hpp */,
+				24226548278AFB5C00E7D560 /* hittable_list.hpp */,
+				24226549278BF57000E7D560 /* rtweekend.hpp */,
+				2422654A278C0FBB00E7D560 /* camera.hpp */,
+				2422654B278C167D00E7D560 /* material.hpp */,
 			);
 			path = raytracing;
 			sourceTree = "<group>";
